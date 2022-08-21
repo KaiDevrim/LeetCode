@@ -14,7 +14,6 @@ public class Test_1480
     [Test]
     public void Test1()
     {
-        int[] testArray = new int[] {4, 8, 5, 7};
-        Assert.That(_solution.RunningSum(testArray), Is.EqualTo(testArray));
+        Assert.That(_solution.RunningSum(new int[] {1,2,3,4}), Is.EqualTo(new int[] {1,3,6,10}));
     }
 }
